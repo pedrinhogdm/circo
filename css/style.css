@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .main{
     background-image: url(../fts/Teste\ copo\ pequeno.png);
     height: 100vh;
@@ -8,10 +13,17 @@
 }
 
 h1{
+    display: flex;
+    position: absolute;
     font-family: 'Poppins', sans-serif;
     text-align: center;
     color: white;
     border-radius: 20px;
     background-color: #0476D9;
     padding: 0;
+}
+
+li{
+    display: flex;
+    float: right;
 }
